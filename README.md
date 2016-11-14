@@ -12,17 +12,17 @@ Please check the app_config.php to configure the log file dir
 >It will Generate Errors!
 
 
-```
+```php
 include \file\directory\Logger.php;
 ```
 
 
 ## To use the functions:
 
-```
+```php
 Logger::Info($ErrorMessage);
 ```
 
-```
+```php
 echo Logger::Info($ErrorMessage, true);
 ```
