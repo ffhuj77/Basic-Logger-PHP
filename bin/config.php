@@ -1,8 +1,6 @@
 <?php
 /**
-*	Developed and Maintained By: USPF ICT Systems Development Team
-*		Sr. Developer: Boi Archievald Ranay
-*		Jr. Developer: John Andrie Pareja
+*	Developed and Maintained By: John Andrie Pareja
 * 	Yr: 2016
 */
 
@@ -20,8 +18,8 @@ function init_config() {
 	*
 	*/
 		"LOGGER_CONFIG"		=> array (
-				"LOG_DIR" 		=> "bin\logs\\",
-				"LOG_FILE"		=> "app_log.log" 
+				"LOG_DIR" 		=> "bin\logs\\", # Default Value = "bin\logs\\"
+				"LOG_FILE"		=> "app_log.log" # Default Value = "app_log.log"
 		),
 		
 		
